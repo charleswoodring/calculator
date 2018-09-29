@@ -16,6 +16,12 @@
 
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<script src="main.js"></script>
+    <!-- below points to module js files in different folders -->
+    <!-- When calling js files be ture to make type="module" -->
+    <script src="./javascripts/helpers/maths.js" type="module"></script>
+    <script src="./javascripts/helpers/util.js" type="module"></script>
+    <script src="./javascripts/components/calculator.js" type="module"></script>
+    <!-- below points to main.js file in the javascripts folder -->
+<script src="./javascripts/main.js" type="module"></script>
 </body>
 </html>
